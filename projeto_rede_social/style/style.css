@@ -13,9 +13,8 @@ html, body{
 }
 
 body{
-    background: url(../imagens/fundo-madeira.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
 
 }
 
@@ -26,7 +25,7 @@ main{
 
 section#telefone{
     position: absolute;
-    background: url(../imagens/frame-iphone.png);
+    background: url(../imagens/frame-iphone.png) no-repeat;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
